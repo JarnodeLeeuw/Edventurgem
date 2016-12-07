@@ -1,3 +1,5 @@
-function Begin(){
-	document.getElementById('Begin').style.display = "none";
+function start() {
+	document.getElementById("body22").style.backgroundImage = "url(Images/room1.jpg)";
+	
+	 
 }

@@ -1,21 +1,28 @@
-body{
-	background-image: url("Images/Billy the Puppet.jpg");
-	background-size: 650px 669px;
+html,body, #body22 {
+	
+	height: 100%;
+	width: 100%;
 	background-position: center;
 	background-position: top;
 	background-repeat: no-repeat;
 	background-color: black;
 	color: red;
 }
+#body22{
+	background-image: url("Images/Billy the Puppet.jpg");
+}
+/*#body.room1{
+	background-image: url("Images/room1.jpg");
+}*/
 
-#Begin{
+#begin{
 	position: absolute;
 	top:596px;
 	left:861px;
 	background-color: rgba(0,0,0,0);
 	border-style: none;
 	color: rgba(0,0,0,0);
-	font-size: 30px;
+	font-size: 40px;
 	cursor: pointer;
 
 }
