@@ -12,6 +12,7 @@ html,body, #body22 {
 	background-image: url("Images/Billy the Puppet.jpg");
 }
 
+
 #begin{
 	position: absolute;
 	top:596px;
@@ -28,9 +29,35 @@ html,body, #body22 {
 	position: absolute;
 	top: 700px;
 }
+
+#key{
+	display:none;
+	position: absolute;
+	top: 325px;
+	left: 450px;
+	color: rgb(117, 88, 25);
+	background-color: rgba(0,0,0,0);
+	border-style:none;
+	cursor: pointer;
+}
+
+#items{
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+
+
+
 #information{
 	top:350px;
 	left:400px;
 	display: none;
 	position: absolute;
+}
+#trap1{
+	display: none;
+	position: absolute;
+	top: 600px;
+	left: 250px;
 }
