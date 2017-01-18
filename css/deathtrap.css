@@ -13,6 +13,7 @@ html,body, #body22 {
 }
 
 
+
 #begin{
 	position: absolute;
 	top:596px;
@@ -41,6 +42,17 @@ html,body, #body22 {
 	cursor: pointer;
 }
 
+#pad{
+	display:none;
+	position:absolute;
+	top:130px;
+	left:535px;
+	color:rgb(96, 96, 96);
+	background-color: rgba(0,0,0,0);
+	border-style:none;
+	cursor:pointer;
+}
+
 #items{
 	position:absolute;
 	top:10px;
@@ -51,7 +63,7 @@ html,body, #body22 {
 
 #information{
 	top:350px;
-	left:400px;
+	left:350px;
 	display: none;
 	position: absolute;
 }
